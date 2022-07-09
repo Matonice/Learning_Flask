@@ -6,6 +6,7 @@ app = Flask(__name__)
 def index():
     return render_template("index.html")
 
+#the route for the signup stage
 @app.route('/signup')
 def signup():
     return render_template("signup.html")
